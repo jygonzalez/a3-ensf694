@@ -47,8 +47,8 @@ Cplx Cplx::subtract(const Cplx* other)const {
     local.realM = realM - other->realM;
     local.imagM = imagM - other->imagM;
     cout << endl << "in subtract";
-    global_pirnt (*this);
-    global_print(*other);
+    //global_print(*this);
+    //global_print(*other);
     return local;
 }
 
